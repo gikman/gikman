@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  margin-top: 14%;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 5%;
+  opacity: 1;
+  align-self: center;
+  margin: 50px 100px;
+}
+
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+  }
+  .container {
+    margin-top: -1%;
+  }
+  div {
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+  }
+  img {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    width: 14%;
+    margin: 50px auto;
+  }
+  .github {
+    width: 20%;
+    transform: translateY(-50px);
+  }
+}
