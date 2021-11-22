@@ -50,7 +50,7 @@ a {
 a:visited {
   color: green;
 }
-.boxes div:hover a {
+a:hover {
   color: black;
 }
 a:active {
