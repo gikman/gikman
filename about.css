@@ -16,6 +16,7 @@ p {
   overflow: hidden;
   animation: type 4s steps(60, end) forwards;
   margin-left: 5%;
+  text-shadow: 0 0 3px #90EE90;
 }
 
 p:nth-child(2) {
