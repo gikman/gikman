@@ -9,12 +9,12 @@ body {
 
 p {
   width: 0;
-  color: limegreen;
+  color: #90EE90;
   font-size: 20px;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
-  animation: type 4s steps(60, end) forwards;
+  animation: type 3s steps(60, end) forwards;
   margin-left: 5%;
   text-shadow: 0 0 3px #90EE90;
 }
@@ -26,10 +26,10 @@ p:nth-child(3) {
   animation-delay: 4s;
 }
 p:nth-child(4) {
-  animation-delay: 7s;
+  animation-delay: 6s;
 }
 p:nth-child(5) {
-  animation-delay: 9s;
+  animation-delay: 8s;
 }
 
 span {
@@ -87,10 +87,10 @@ span {
     animation-delay: 4s;
   }
   p:nth-child(4) {
-    animation-delay: 7s;
+    animation-delay: 6s;
   }
   p:nth-child(5) {
-    animation-delay: 9s;
+    animation-delay: 8s;
   }
 
   span {
