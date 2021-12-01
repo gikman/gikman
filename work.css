@@ -19,27 +19,6 @@
       border-color: #00FF00;
       transition: all 0.5s ease-out; } */
 
-#sidebar {
-  background: black;
-  grid-area: sidebar;
-  border-radius: var(--main-radius);
-  padding-top: var(--main-padding);
-}
-
-#content1 {
-  background: black;
-  grid-area: content1;
-  border-radius: var(--main-radius);
-  padding-top: var(--main-padding);
-}
-
-#content3 {
-  background: black;
-  grid-area: content3;
-  border-radius: var(--main-radius);
-  padding-top: var(--main-padding);
-}
-
 p {
   width: 0;
   color: #90EE90;
