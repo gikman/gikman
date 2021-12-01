@@ -173,11 +173,10 @@ a {
     "project1 project2 project3 project4"
     "github1 github2 github3 github4"; } }
 
-@media screen and (min-width: 769px) and (max-width: 1170px) {
+/* @media screen and (min-width: 769px) and (max-width: 1170px) {
   .container {
     display: grid;
   height: 100vh;
-  /* grid-auto-flow: column; */
   grid-template-columns: 1fr, 1fr, 1fr;
   grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
   grid-template-areas:
@@ -189,9 +188,9 @@ a {
     "text4"
     "project4"
     "github4";
-    } }
-
-@media screen and (max-width: 768px) {
+    } } 
+  */
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
   .container {
     display: grid;
   height: 100vh;
@@ -208,4 +207,71 @@ a {
     "github3 github4";
     } }
 
-@media screen and (max-width: 500px) {
+
+/* @media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1 sidebar2"
+    "text1 text2"
+    "project1 project2"
+    "github1 github2"  
+    "sidebar3 sidebar4"
+    "text3 text4"
+    "project3 project4"
+    "github3 github4";
+    } } */
+    @media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1"
+    "text1"
+    "project1"
+    "github1"
+    "sidebar2"
+    "text2"
+    "project2"
+    "github2"
+    "sidebar3"
+    "text3"
+    "project3"
+    "github3"
+    "sidebar4"
+    "text4"
+    "project4"
+    "github4"; 
+    } }
+
+/* @media screen and (max-width: 500px) {
+  .container {
+    display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1"
+    "text1"
+    "project1"
+    "github1"
+    "sidebar2"
+    "text2"
+    "project2"
+    "github2"
+    "sidebar3"
+    "text3"
+    "project3"
+    "github3"
+    "sidebar4"
+    "text4"
+    "project4"
+    "github4"; 
+
+
+    } } */
