@@ -1,4 +1,4 @@
-/* .menu-btn {
+.menu-btn {
   position: absolute;
   z-index: 3;
   right: 35px;
@@ -173,14 +173,14 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; } */
+    border-bottom: #eece1a 5px solid; }
 
 .projects {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(1, 2fr); }
   .projects img {
-    width: 100%;
+    width: 50%;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -217,11 +217,13 @@ main {
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  border: 2px #fff solid;
+  color: green; }
 
 .btn-light {
-  background: #c4c4c4;
-  color: #333; }
+  background: black;
+  border: 2px #fff solid;
+  color: green; }
 
 a {
   color: green;
