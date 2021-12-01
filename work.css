@@ -1,41 +1,104 @@
-/* .projects {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 0.6fr 0.1fr;
-  grid-template-areas:
-    "sidebar main main"
-    "sidebar main main"
-    "sidebar content1 content3";
-  grid-gap: 1rem;
-  font-weight: 800;
-  font-size: 12px;
-  color: #004d40;}
-  .projects img {
-    width: 50%;
-    border: 3px #fff solid; }
-    .projects img:hover {
-      opacity: 0.5;
-      border-color: #00FF00;
-      transition: all 0.5s ease-out; } */
+#text1 {
+  background: #000;
+  grid-area: text1;
+}
+#text2 {
+  background: #000;
+  grid-area: text2;
+}
+#text3 {
+  background: #000;
+  grid-area: text3;
+}
+#text4 {
+  background: #000;
+  grid-area: text4;
+}
+
+#sidebar1 {
+  background: #000;
+  grid-area: sidebar1;
+  margin: 5%;
+}
+#sidebar2 {
+  background: #000;
+  grid-area: sidebar2;
+  margin: 5%;
+}
+#sidebar3 {
+  background: #000;
+  grid-area: sidebar3;
+  margin: 5%;
+}
+#sidebar4 {
+  background: #000;
+  grid-area: sidebar4;
+  margin: 5%;
+}
+
+#project1 {
+  background: #000;
+  grid-area: project1;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#project2 {
+  background: #000;
+  grid-area: project2;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#project3 {
+  background: #000;
+  grid-area: project3;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#project4 {
+  background: #000;
+  grid-area: project4;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#github1 {
+  background: #000;
+  grid-area: github1;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#github2 {
+  background: #000;
+  grid-area: github2;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#github3 {
+  background: #000;
+  grid-area: github3;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#github4 {
+  background: #000;
+  grid-area: github4;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
 p {
-  width: 0;
-  color: #90EE90;
+  /* color: #90EE90; */
+  color: #00FF00;
   font-size: 20px;
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
-/*   margin-left: 5%; */
   text-shadow: 0 0 5px #90EE90;
+  opacity: 0.7;
 }
-
-* {
-  box-sizing: border-box; }
 
  body {
   background: #000;
-  color: #000;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,36 +109,29 @@ p {
     background-attachment: fixed;
     background-size: cover; } 
 
-/* .projects {
+
+.container {
   display: grid;
-  grid-gap: 1.7rem;
-  grid-template-columns: repeat(3, 1fr); }
-  .projects img {
-    width: 50%;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1 sidebar2 sidebar3 sidebar4"
+    "text1 text2 text3 text4"
+    "project1 project2 project3 project4"
+    "github1 github2 github3 github4";
+  grid-gap: 0.2rem;
+  color: #004d40;
+  text-align: center;
+}
+  .container img {
+    width: 100%;
     border: 3px #fff solid; }
-    .projects img:hover {
+    .container img:hover {
       opacity: 0.5;
       border-color: #00FF00;
-      transition: all 0.5s ease-out; } */
+      transition: all 0.5s ease-out; }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem; }
-  .boxes div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
-    .boxes div:hover {
-      padding: 0.5rem 1.5rem;
-      background: #00FF00;
-      color: #000; }
-      .boxes div:hover span {
-        color: #000; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -83,6 +139,9 @@ p {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
+    opacity: 0.5;
+    border-color: #00FF00;
+    transition: all 0.5s ease-out;
     background: #00FF00;
     color: #000; }
 
@@ -103,18 +162,50 @@ a {
 }
 
 @media screen and (min-width: 1171px) {
-  .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+  .container {
+    display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1 sidebar2 sidebar3 sidebar4"
+    "text1 text2 text3 text4"
+    "project1 project2 project3 project4"
+    "github1 github2 github3 github4"; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
-  .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+  .container {
+    display: grid;
+  height: 100vh;
+  /* grid-auto-flow: column; */
+  grid-template-columns: 1fr, 1fr, 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1 sidebar2 sidebar3"
+    "text1 text2 text3"
+    "project1 project2 project3"
+    "github1 github2 github3"
+    "sidebar4"
+    "text4"
+    "project4"
+    "github4";
+    } }
 
 @media screen and (max-width: 768px) {
-  }
-  .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+  .container {
+    display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1 sidebar2"
+    "text1 text2"
+    "project1 project2"
+    "github1 github2"  
+    "sidebar3 sidebar4"
+    "text3 text4"
+    "project3 project4"
+    "github3 github4";
+    } }
 
 @media screen and (max-width: 500px) {
-  .projects {
-    grid-template-columns: 1fr; } }
