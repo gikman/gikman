@@ -56,11 +56,11 @@ a {
 a:visited {
   color: green;
 }
-a:hover {
+/* a:hover {
   color: white;
 }
 a:active {
-  color: white;
+  color: white; */
 }
 a:hover img {
     background-image: none !important;
