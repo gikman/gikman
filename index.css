@@ -3,7 +3,6 @@ body {
   position: relative;
   text-align: center;
   overflow: hidden;
-  margin-left: 1rem;
 }
 
 .container {
@@ -24,8 +23,8 @@ body {
   /* margin: auto;
   margin-top: 21%; */
 
-  top: 225%;
-  left: 50%;
+  top: 46%;
+  left: 51%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
