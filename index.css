@@ -1,5 +1,3 @@
-/* * { margin:0; padding:0; box-sizing:border-box; } */
-
 body {
   background-color: black;
   position: relative;
@@ -10,9 +8,9 @@ body {
 
 .container {
   position: absolute;
-  top: 0;
+  /* top: 0;
   right: 0;
-  left: 0;
+  left: 0; */
   color: green;
   font-weight: bold;
   display: flex;
@@ -23,8 +21,13 @@ body {
   justify-self: center;
   height: 20%;
   width: 80%;
-  margin: auto;
-  margin-top: 21%;
+  /* margin: auto;
+  margin-top: 21%; */
+
+  top: 225%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .work,
@@ -61,9 +64,9 @@ a:visited {
 }
 a:active {
   color: white; */
-}
+
 a:hover img {
-    background-image: none !important;
+    background-image: none !important;}
 
 @media screen and (max-width: 700px) {
   body {
@@ -71,14 +74,15 @@ a:hover img {
   }
   
   .container {
-    margin-top: 72%;
+    /* margin-top: 72%; */
     flex-direction: column;
   }
   img {
-    width: 70%;
+    width: 62%;
     margin: 10px auto;
   }
   .contact {
     width: 120%;
   }
 }
+
