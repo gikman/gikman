@@ -1,18 +1,22 @@
 #text1 {
   background: #000;
   grid-area: text1;
+  margin-bottom: 3%;
 }
 #text2 {
   background: #000;
   grid-area: text2;
+  margin-bottom: 3%;
 }
 #text3 {
   background: #000;
   grid-area: text3;
+  margin-bottom: 3%;
 }
 #text4 {
   background: #000;
   grid-area: text4;
+  margin-bottom: 3%;
 }
 
 #sidebar1 {
