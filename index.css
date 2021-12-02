@@ -59,6 +59,8 @@ a:hover {
 a:active {
   color: white;
 }
+a:hover img {
+    background-image: none !important;
 
 @media screen and (max-width: 700px) {
   body {
