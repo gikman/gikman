@@ -5,6 +5,7 @@ body {
   position: relative;
   text-align: center;
   overflow: hidden;
+  margin-left: 1rem;
 }
 
 .container {
