@@ -1,3 +1,7 @@
+var fullScreen = function () {
+    map.baseLayer().redraw();
+}
+
 (function(window, $, undefined) {
 
 var hasTouch = 'ontouchstart' in window,
