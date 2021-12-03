@@ -73,7 +73,7 @@ a:hover img {
   }
   
   .container {
-    /* margin-top: 72%; */
+    left: 53%;
     flex-direction: column;
   }
   img {
