@@ -25,7 +25,7 @@ body {
   margin-top: 21%; */
 
   top: 46%;
-  left: 50%;
+  left: 48%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -74,7 +74,7 @@ a:hover img {
   } */
   
   .container {
-    left: 50%;
+    left: 48%;
     flex-direction: column;
   }
   img {
