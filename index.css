@@ -25,7 +25,7 @@ body {
   margin-top: 21%; */
 
   top: 46%;
-  left: 51%;
+  left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -69,12 +69,12 @@ a:hover img {
     background-image: none !important;}
 
 @media screen and (max-width: 700px) {
-  body {
+/*   body {
   margin-left: 1rem;
-  }
+  } */
   
   .container {
-    left: 53%;
+    left: 50%;
     flex-direction: column;
   }
   img {
