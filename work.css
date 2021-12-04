@@ -18,12 +18,22 @@
   grid-area: text4;
   margin-bottom: 8%;
 }
+#text5 {
+  background: #000;
+  grid-area: text5;
+  margin-bottom: 8%;
+}
+#text6 {
+  background: #000;
+  grid-area: text6;
+  margin-bottom: 8%;
+}
 
 #sidebar1 {
   background: #000;
   grid-area: sidebar1;
   margin: 5%;
-  background-size: cover;
+  /* background-size: cover; */
 }
 #sidebar2 {
   background: #000;
@@ -40,6 +50,16 @@
   grid-area: sidebar4;
   margin: 5%;
 }
+#sidebar5 {
+  background: #000;
+  grid-area: sidebar5;
+  margin: 5%;
+}
+#sidebar6 {
+  background: #000;
+  grid-area: sidebar6;
+  margin: 5%;
+}
 
 #project1 {
   background: #000;
@@ -48,6 +68,7 @@
   margin-right: 5%;
   justify-items: center;
 }
+
 #project2 {
   background: #000;
   grid-area: project2;
@@ -65,6 +86,20 @@
 #project4 {
   background: #000;
   grid-area: project4;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-items: center;
+}
+#project5 {
+  background: #000;
+  grid-area: project5;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-items: center;
+}
+#project6 {
+  background: #000;
+  grid-area: project6;
   margin-left: 5%;
   margin-right: 5%;
   justify-items: center;
@@ -99,12 +134,26 @@
   margin-right: 5%;
   justify-items: center;
 }
+#github5 {
+  background: #000;
+  grid-area: github5;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-items: center;
+}
+#github6 {
+  background: #000;
+  grid-area: github6;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-items: center;
+}
 
 p {
   /* color: #90EE90; */
   color: #00FF00;
   font-size: 20px;
-  margin: 10px 0 0 10px;
+  margin: 0px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
   text-shadow: 0 0 5px #90EE90;
@@ -154,6 +203,8 @@ img {
 float: left;
 height: 300px;
 object-fit: cover;
+opacity: 0.9;
+background-color: green;
 }
 
 .btn, .btn-dark, .btn-light {
@@ -184,7 +235,7 @@ a {
   text-decoration-color: none;
 }
 
-@media screen and (min-width: 1171px) {
+@media screen and (min-width: 1601px) {
   .container {
     display: grid;
   height: 100vh;
@@ -194,7 +245,27 @@ a {
     "sidebar1 sidebar2 sidebar3 sidebar4"
     "text1 text2 text3 text4"
     "project1 project2 project3 project4"
-    "github1 github2 github3 github4"; } }
+    "github1 github2 github3 github4"
+    "sidebar5 sidebar6 . ."
+    "text5 text6 . ."
+    "project5 project6 . ."
+    "github5 github6 . ."; } }
+
+@media screen and (min-width: 1171px) and (max-width: 1600px) {
+  .container {
+    display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-areas:
+    "sidebar1 sidebar2 sidebar3"
+    "text1 text2 text3"
+    "project1 project2 project3"
+    "github1 github2 github3"
+    "sidebar4 sidebar5 sidebar6"
+    "text4 text5 text6"
+    "project4 project5 project6"
+    "github4 github5 github6"; } }
 
 
   @media screen and (min-width: 769px) and (max-width: 1170px) {
@@ -211,7 +282,11 @@ a {
     "sidebar3 sidebar4"
     "text3 text4"
     "project3 project4"
-    "github3 github4";
+    "github3 github4"
+    "sidebar5 sidebar6"
+    "text5 text6"
+    "project5 project6"
+    "github5 github6";
     } }
 
     @media screen and (max-width: 768px) {
@@ -236,7 +311,15 @@ a {
       "sidebar4"
       "text4"
       "project4"
-      "github4"; 
+      "github4"
+      "sidebar5"
+      "text5"
+      "project5"
+      "github5"
+      "sidebar6"
+      "text6"
+      "project6"
+      "github6"; 
       } }
 
     #github1 {
@@ -269,6 +352,24 @@ a {
     #github4 {
       background: #000;
       grid-area: github4;
+      justify-items: center;
+      /* margin-top: 20%; */
+      margin-bottom: 25%;
+      /* margin-left: 5%;
+      margin-right: 5%; */
+    }
+    #github5 {
+      background: #000;
+      grid-area: github5;
+      justify-items: center;
+      /* margin-top: 20%; */
+      margin-bottom: 25%;
+      /* margin-left: 5%;
+      margin-right: 5%; */
+    }
+    #github6 {
+      background: #000;
+      grid-area: github6;
       justify-items: center;
       /* margin-top: 20%; */
       margin-bottom: 25%;
