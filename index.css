@@ -3,6 +3,7 @@ body {
   position: relative;
   text-align: center;
   overflow: hidden;
+  position: fixed;
 }
 
 .container {
