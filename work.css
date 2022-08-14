@@ -2,6 +2,7 @@ footer {
   background: white;
   color: white;
   bottom: -10%;
+  grid-area: footer;
 }
 
 #text1 {
@@ -188,7 +189,8 @@ p {
     "sidebar1 sidebar2 sidebar3 sidebar4"
     "text1 text2 text3 text4"
     "project1 project2 project3 project4"
-    "github1 github2 github3 github4";
+    "github1 github2 github3 github4"
+    "footer footer footer footer";
   grid-gap: 0.2rem;
   color: #004d40;
   text-align: center;
@@ -255,7 +257,8 @@ a {
     "sidebar5 sidebar6 . ."
     "text5 text6 . ."
     "project5 project6 . ."
-    "github5 github6 . ."; } }
+    "github5 github6 . ."
+    "footer footer footer footer"; } }
 
 @media screen and (min-width: 1171px) and (max-width: 1600px) {
   .container {
@@ -271,7 +274,8 @@ a {
     "sidebar4 sidebar5 sidebar6"
     "text4 text5 text6"
     "project4 project5 project6"
-    "github4 github5 github6"; 
+    "github4 github5 github6"
+    "footer footer footer"; 
     } }
 
 
@@ -293,7 +297,8 @@ a {
     "sidebar5 sidebar6"
     "text5 text6"
     "project5 project6"
-    "github5 github6";
+    "github5 github6"
+    "footer footer";
     } }
 
     @media screen and (max-width: 768px) {
@@ -326,7 +331,8 @@ a {
       "sidebar6"
       "text6"
       "project6"
-      "github6"; 
+      "github6"
+      "footer"; 
       } }
 
     #github1 {
