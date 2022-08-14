@@ -1,3 +1,7 @@
+canvas {
+  opacity: 0.8;
+}
+
 body {
   background-color: black;
   position: relative;
@@ -7,6 +11,7 @@ body {
 }
 
 .container {
+  opacity: 0.8;
   position: absolute;
   /* top: 0;
   right: 0;
@@ -46,6 +51,7 @@ body {
 }
 
 img {
+/*   opacity: 0.8; */
   width: 90%;
   transition: all 0.8s ease-out;
 }
@@ -74,6 +80,7 @@ a:hover img {
   } */
   
   .container {
+    opacity: 0.8;
     left: 48%;
     flex-direction: column;
   }
