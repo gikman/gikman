@@ -255,7 +255,7 @@ a {
   .container {
     display: grid;
   height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr 0.1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
   grid-template-areas:
     "sidebar1 sidebar2 sidebar3"
@@ -265,11 +265,8 @@ a {
     "sidebar4 sidebar5 sidebar6"
     "text4 text5 text6"
     "project4 project5 project6"
-    "github4 github5 github6"
-    ". . . ."
-    ". . . ."
-    ". . . ."
-    ". . . ."; } }
+    "github4 github5 github6"; 
+    } }
 
 
   @media screen and (min-width: 769px) and (max-width: 1170px) {
@@ -377,6 +374,7 @@ a {
       justify-items: center;
       /* margin-top: 20%; */
       margin-bottom: 25%;
+      padding bottom: 5%;
       /* margin-left: 5%;
       margin-right: 5%; */
     }
