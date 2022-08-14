@@ -1,7 +1,6 @@
 footer {
-  background: yellow;
-  color: red;
-/*   margin-top: -100px; */
+  color: #000;
+  margin-top: -100px;
   height: 0px;
 /*   bottom: -10%; */
   grid-area: footer;
@@ -186,7 +185,7 @@ p {
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0.01frm;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0frm;
   grid-template-areas:
     "sidebar1 sidebar2 sidebar3 sidebar4"
     "text1 text2 text3 text4"
@@ -250,7 +249,7 @@ a {
     display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0.01fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0fr;
   grid-template-areas:
     "sidebar1 sidebar2 sidebar3 sidebar4"
     "text1 text2 text3 text4"
@@ -267,7 +266,7 @@ a {
     display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0fr;
   grid-template-areas:
     "sidebar1 sidebar2 sidebar3"
     "text1 text2 text3"
@@ -286,7 +285,7 @@ a {
     display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0.01fr;
+  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0fr;
   grid-template-areas:
     "sidebar1 sidebar2"
     "text1 text2"
@@ -308,7 +307,7 @@ a {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0.01fr;
+    grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0fr;
     grid-template-areas:
       "sidebar1"
       "text1"
