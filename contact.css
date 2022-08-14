@@ -24,7 +24,7 @@ img {
 
 .boxes div {
   font-size: 2rem;
-  border: 2px #fff solid;
+  border: 2px rgb(0, 255, 0, 0.6) solid;
   padding: 1.5rem 2.5rem;
 /*   margin-bottom: 3rem; */
   margin-top: 1.5rem;
@@ -32,15 +32,15 @@ img {
 }
 
 .boxes div:hover {
-  padding: 0.5rem 1.5rem;
-  background: green;
+/*   padding: 0.5rem 1.5rem; */
+/*   background: green; */
   color: #000;
-  border: 2px #fff solid;
+/*   border: 2px #fff solid; */
 }
 
-.boxes div:hover span {
+/* .boxes div:hover span {
   color: #000;
-}
+} */
 
 a {
   color: green;
@@ -51,11 +51,11 @@ a {
 a:visited {
   color: green;
 }
-a:hover {
+/* a:hover {
   color: black;
-}
+} */
 a:active {
-  color: white;
+/*   color: white; */
 }
 
 @media screen and (max-width: 700px) {
