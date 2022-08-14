@@ -295,6 +295,7 @@ a {
     .container {
     display: grid;
     height: 100vh;
+    border-bottom: 3rem;
     grid-template-columns: 1fr;
     grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
     grid-template-areas:
@@ -374,7 +375,7 @@ a {
       grid-area: github6;
       justify-items: center;
       /* margin-top: 20%; */
-      margin-bottom: 75%;
+      margin-bottom: 25%;
       /* margin-left: 5%;
       margin-right: 5%; */
     }
