@@ -1,3 +1,7 @@
+footer {
+  background: white;
+}
+
 #text1 {
   background: #000;
   grid-area: text1;
