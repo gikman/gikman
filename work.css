@@ -1,6 +1,6 @@
 footer {
   background: white;
-  color: white;
+  color: red;
   bottom: -10%;
   grid-area: footer;
 }
