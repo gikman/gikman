@@ -14,7 +14,7 @@ p {
   margin: 10px 0 0 10px;
   white-space: nowrap;
   overflow: hidden;
-  animation: type 3.5s steps(120, end) forwards;
+  animation: type 3.3s steps(110, end) forwards;
   animation-delay: 0.1s;
   margin-left: 5%;
   text-shadow: 0 0 5px #90EE90;
