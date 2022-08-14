@@ -164,7 +164,6 @@ p {
   background: #000;
   height: 100%;
 /*   margin: 0; */
-  border-bottom: 3rem solid black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
@@ -295,7 +294,6 @@ a {
     .container {
     display: grid;
     height: 100vh;
-    border-bottom: 3rem;
     grid-template-columns: 1fr;
     grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr;
     grid-template-areas:
