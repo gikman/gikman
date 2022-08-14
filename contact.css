@@ -27,7 +27,7 @@ img {
   border: 2px #fff solid;
   padding: 1.5rem 2.5rem;
   margin-bottom: 3rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   transition: all 0.5s ease-out;
 }
 
@@ -67,5 +67,6 @@ a:active {
   .boxes div {
     width: 50%;
     font-size: 13px;
+    margin-top: 3rem;
   }
 }
