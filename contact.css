@@ -24,7 +24,7 @@ img {
 
 .boxes div {
   font-size: 2rem;
-  border: 2px rgb(0, 255, 0, 0.4) solid;
+  border: 2px rgb(0, 255, 0, 0.25) solid;
   padding: 1.5rem 2.5rem;
 /*   margin-bottom: 3rem; */
   margin-top: 1.5rem;
