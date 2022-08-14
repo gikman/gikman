@@ -1,7 +1,8 @@
 footer {
-  background: red;
+  background: blue;
   color: red;
   margin-top: -100px;
+  height: 100px;
   bottom: -10%;
   grid-area: footer;
 }
