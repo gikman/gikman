@@ -252,16 +252,16 @@ a {
     display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0fr;
+  grid-template-rows: 2.2fr 1fr 0.1fr 0.1fr 0fr;
   grid-template-areas:
-    "sidebar1 sidebar2 sidebar3 sidebar4"
-    "text1 text2 text3 text4"
-    "project1 project2 project3 project4"
-    "github1 github2 github3 github4"
-    "sidebar5 sidebar6 . ."
-    "text5 text6 . ."
-    "project5 project6 . ."
-    "github5 github6 . ."
+    "sidebar1 sidebar2 sidebar5 sidebar6"
+    "text1 text2 text5 text6"
+    "project1 project2 project5 project6"
+    "github1 github2 github5 github6"
+    "sidebar3 sidebar4 . ."
+    "text3 text4 . ."
+    "project3 project4 . ."
+    "github3 github4 . ."
     "footer footer footer footer"; } }
 
 @media screen and (min-width: 1171px) and (max-width: 1600px) {
@@ -271,14 +271,14 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2.2fr 1.5fr 0.1fr 0.1fr 0fr;
   grid-template-areas:
-    "sidebar1 sidebar2 sidebar3"
-    "text1 text2 text3"
-    "project1 project2 project3"
-    "github1 github2 github3"
-    "sidebar4 sidebar5 sidebar6"
-    "text4 text5 text6"
-    "project4 project5 project6"
-    "github4 github5 github6"
+    "sidebar1 sidebar2 sidebar6"
+    "text1 text2 text6"
+    "project1 project2 project6"
+    "github1 github2 github6"
+    "sidebar4 sidebar5 sidebar3"
+    "text4 text5 text3"
+    "project4 project5 project3"
+    "github4 github5 github3"
     "footer footer footer"; 
     } }
 
