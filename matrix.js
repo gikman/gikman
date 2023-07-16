@@ -40,9 +40,9 @@ var MatrixSymbol = /** @class */ (function () {
     function MatrixSymbol(x) {
         this.head = new Coordinate(x, Helper.random(10, 100));
         this.tail = new Coordinate(x, this.head.y);
-        this.fontSize = Helper.randomInt(10, 21);
+        this.fontSize = Helper.randomInt(8, 18);
         this.colorIndex = 3 - Helper.doubleToInt((this.fontSize - 10) / 4);
-        this.speed = Helper.randomInt(1, 30);
+        this.speed = Helper.randomInt(1, 20);
         this.speedCounter = this.speed;
         this.nextChar = Helper.randomChar();
         this.currentChar = this.nextChar;
