@@ -149,13 +149,21 @@ footer {
   margin-right: 5%;
   justify-items: center;
 }
-#github6 {
+/* #github6 {
   background: #000;
   grid-area: github6;
   margin-left: 5%;
   margin-right: 5%;
   justify-items: center;
+} */
+#github6 {
+  background: none;
+  grid-area: github6;
+  justify-items: center;
+  margin-bottom: 0; /* Ensure no extra margin */
+  height: 0; /* Set height to 0 to remove any vertical space */
 }
+
 
 p {
   /* color: #90EE90; */
